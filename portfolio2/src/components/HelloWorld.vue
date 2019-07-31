@@ -1,9 +1,12 @@
 <template>
-  <v-app>
+  <div>
     ツェウト
-    <!-- <router-link to="/HelloWorld2">Go to page2</router-link> -->
-  </v-app>
+  </div>
 </template>
 
 <script>
 </script>
+
+<style>
+
+</style>
