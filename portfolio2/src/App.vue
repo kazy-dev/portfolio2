@@ -6,29 +6,19 @@
         <router-view />
       </transition>
     </v-content>
-    <!-- <div id="app">
-      <div id="nav">
-        <router-link to="/">HOME</router-link><span>|</span>
-        <router-link to="/about">ABOUT</router-link><span>|</span>
-        <router-link to="/skills">SKILLS</router-link><span>|</span>
-        <router-link to="/works">WORKS</router-link><span>|</span>
-        <router-link to="/contact">CONTACT</router-link>
-      </div>
-      <transition mode="out-in">
-        <router-view/>
-      </transition>
-    </div> -->
   </v-app>
 </template>
 
 <script>
 import NaviBar from "@/components/NaviBar.vue"
+
 export default {
   name: 'App',
-  components: { NaviBar },
+  components: { 
+    NaviBar,
+  },
   data () {
-    return {
-      //
+    return { 
     }
   }
 }

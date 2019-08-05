@@ -1,16 +1,12 @@
 <template>
     <div>
-    <v-app-bar flat app class="primary">
-        <v-app-bar-nav-icon class="white--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
-        <v-toolbar-title class="text-uppercase white--text">
-            <span>Kazy's</span>
-            <span class="font-weight-light"> Portfolio</span>
-        </v-toolbar-title>
+    <v-app-bar flat app color="rgb(0, 0, 0, 0)" id="naviBar">
+        <v-app-bar-nav-icon class="black--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
         <v-spacer></v-spacer>
-        <v-btn text color="white">
+        <!-- <v-btn text color="white">
             <span>Sign Out</span>
             <v-icon right>exit_to_app</v-icon>
-        </v-btn>
+        </v-btn> -->
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" app left temporary>
             <v-list flat>
@@ -34,7 +30,7 @@
 export default {
   data() {
     return {
-      drawer: false
+      drawer: false,
     }
   }
 }
