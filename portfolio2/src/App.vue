@@ -18,7 +18,7 @@ export default {
     NaviBar,
   },
   data () {
-    return { 
+    return {
     }
   }
 }
@@ -26,6 +26,10 @@ export default {
 </script>
 
 <style>
+.v-application {
+  font-family: monospace, "Hiragino Kaku Gothic ProN" ,"メイリオ", sans-serif!important;
+}
+
 .v-enter-active, .v-leave-active {
   transition: .2s;
 }
